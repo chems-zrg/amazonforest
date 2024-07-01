@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import FirstPage from './firstpage';
@@ -12,7 +12,7 @@ import Thirdpage from './thirdpageaboutus';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/firstpage" element={<FirstPage />} />
@@ -20,7 +20,7 @@ root.render(
         <Route path="/Secondepage" element={<Secondepage />} />
         <Route path='/Thirdpage' element={<Thirdpage/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
