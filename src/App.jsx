@@ -1,7 +1,7 @@
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./styles.css"; 
+import "./styles.css";
 
 export default function App() {
   const count = useMotionValue(0);
@@ -12,13 +12,13 @@ export default function App() {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: { y: -80, opacity: 1 },
-    transition: { delay: 0.5, type: 'spring', stiffness: 400 },
+    transition: { delay: 0.5, type: "spring", stiffness: 400 },
   };
 
   const childVariants = {
     hidden: { opacity: 0 },
     visible: { y: -80, opacity: 1 },
-    transition: { delay: 0.5, type: 'spring', stiffness: 400 },
+    transition: { delay: 0.5, type: "spring", stiffness: 400 },
   };
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function App() {
 
     if (displayValue === 100) {
       const timeoutId = setTimeout(() => {
-        navigate('/firstpage'); 
+        navigate("/firstpage");
       }, 2000);
 
       return () => clearTimeout(timeoutId);
@@ -46,7 +46,7 @@ export default function App() {
     <div className="h-[100vh] w-[100%] bg-white relative">
       {displayValue < 75 ? (
         <motion.h1
-          className="text-black flex justify-center text-8xl font-medium animate-pulse items-center h-[100%]"
+          className="text-black flex justify-center text-7xl font-medium animate-pulse items-center h-[100%]"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
