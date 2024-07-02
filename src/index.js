@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './NavBar';
 import Secondepage from './secondepage';
 import Thirdpage from './thirdpageaboutus';
+import Protecnature from './protectnature';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +21,7 @@ root.render(
         <Route path="/Navbar" element={<Navbar />} />
         <Route path="/Secondepage" element={<Secondepage />} />
         <Route path='/Thirdpage' element={<Thirdpage/>}/>
+        <Route path='/Protecnature' element={<Protecnature/>}/>
       </Routes>
     </HashRouter>
   </React.StrictMode>

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.captioned-image {
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.captioned-image > * {
+  grid-area: 1/1;
+  transition: 0.4s;
+}
+
+.captioned-image figcaption {
+  display: grid;
+  align-items: end;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: white; /* Set the text color to white */
+  padding: 0.75rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.6) 0 0),
+    linear-gradient(rgba(0, 0, 0, 0.6) 0 0);
+  -webkit-mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  margin: -1px;
+}
+
+.captioned-image:hover figcaption {
+  --_i: 0%;
+}
+
+.captioned-image:hover img {
+  transform: scale(1.2);
+}
+.captioned-image {
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.captioned-image > * {
+  grid-area: 1/1;
+  transition: 0.4s;
+}
+
+.captioned-image figcaption {
+  display: grid;
+  align-items: end;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: white; /* Set the text color to white */
+  padding: 0.75rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.6) 0 0),
+    linear-gradient(rgba(0, 0, 0, 0.6) 0 0);
+  -webkit-mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  margin: -1px;
+}
+
+.captioned-image:hover figcaption {
+  --_i: 0%;
+}
+
+.captioned-image:hover img {
+  transform: scale(1.2);
+}
