@@ -51,7 +51,7 @@ export default function App() {
           initial="hidden"
           animate="visible"
         >
-          Hi, my name is Younes Zerguine.
+          Hi, my name is Chems Zerguine.
         </motion.h1>
       ) : (
         <>
