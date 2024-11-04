@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/amazonforest/static/css/main.26960c9b.css",
+    "main.js": "/amazonforest/static/js/main.c085cc40.js",
+    "static/js/453.1407b060.chunk.js": "/amazonforest/static/js/453.1407b060.chunk.js",
+    "static/media/mixkit.mp4": "/amazonforest/static/media/mixkit.b09262269f9eaf636563.mp4",
+    "static/media/pexels-luisdalvan-1770809.jpg": "/amazonforest/static/media/pexels-luisdalvan-1770809.ced02b7a8d92a2259c37.jpg",
+    "static/media/pexels-hikaique-775201.jpg": "/amazonforest/static/media/pexels-hikaique-775201.a24972146ca8a8849242.jpg",
+    "static/media/pexels-chevanon-1108099.jpg": "/amazonforest/static/media/pexels-chevanon-1108099.e5d05f2ee0e13004d374.jpg",
+    "static/media/pexels-pixabay-47547.jpg": "/amazonforest/static/media/pexels-pixabay-47547.f5d2fc149d5e8e3b5eb6.jpg",
+    "static/media/pexels-pixabay-50577.jpg": "/amazonforest/static/media/pexels-pixabay-50577.ca36da7820ca8b9abaff.jpg",
+    "static/media/pexels-pixabay-86405.jpg": "/amazonforest/static/media/pexels-pixabay-86405.d7cf55768c72c3888159.jpg",
+    "static/media/bird-6899457_1280.jpg": "/amazonforest/static/media/bird-6899457_1280.1ffb0fb81823b0fb9db5.jpg",
+    "static/media/-removebg-preview.png": "/amazonforest/static/media/5832e2c1d30b7bcba78291e584b21b74-removebg-preview.5b36ff8b6a2e605967af.png",
+    "index.html": "/amazonforest/index.html",
+    "main.26960c9b.css.map": "/amazonforest/static/css/main.26960c9b.css.map",
+    "main.c085cc40.js.map": "/amazonforest/static/js/main.c085cc40.js.map",
+    "453.1407b060.chunk.js.map": "/amazonforest/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26960c9b.css",
+    "static/js/main.c085cc40.js"
+  ]
+}
